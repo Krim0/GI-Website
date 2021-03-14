@@ -1,0 +1,101 @@
+
+@font-face {
+    font-family: Cinzel-reg;
+    src: url(../fonts/Cinzel-Regular.otf);
+}
+@font-face {
+    font-family: Cinzel-bold;
+    src: url(../fonts/Cinzel-Bold.otf);
+}
+body{
+    background-color: rgb(221, 209, 209);
+}
+.header {
+    padding: 50px 0 170px 0; 
+    background-image: url(../imgs/1108907.jpg);
+    background-size: cover;
+}
+.logo {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: -110px;
+    z-index: 100;
+    font-family: Cinzel-reg;
+}
+.nav {
+    text-align: right;
+}
+.nav .button {
+    width: 150px;
+    font-weight: bolder;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.button {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.589);
+}
+.action {
+    text-align: left;
+    margin: 100px 0 0 -50px;
+}
+.action h1 {
+    margin: 0;
+    font-family: Cinzel-bold;
+    color: rgb(0, 0, 0);
+}
+.action h2 {
+    margin: 0 0 20px 0;
+    font-family: Cinzel-bold;
+    color: rgb(0, 0, 0);
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+#card {
+    text-align: center;
+    padding: 20px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#sub-header {
+    text-align: center;
+    margin: 40px 0 50px 0;
+    font-family: Cinzel-bold;
+    color: #a67c00;
+}
+#card-img {
+    height: 12em;
+    width: 100%;
+}
+.footer {
+    padding:40px 0;
+    color:#4b4c4d;
+    margin-top: 25px;
+}
+.footer .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:15px;
+    color:#aaa;
+    margin-bottom:0;
+}
+  

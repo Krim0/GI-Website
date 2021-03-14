@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Cinzel-reg;
+    src: url(../fonts/Cinzel-Regular.otf);
+}
+@font-face {
+    font-family: Cinzel-bold;
+    src: url(../fonts/Cinzel-Bold.otf);
+}
+body{
+    background-color: #333;
+    color: white;
+
+}
+.header {
+    padding: 50px 0 100px 0; 
+}
+.logo {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: -110px;
+    z-index: 100;
+    font-family: Cinzel-reg;
+}
+.nav {
+    text-align: right;
+    
+}
+.nav .button {
+    width: 150px;
+    font-weight: bolder;
+    background: rgba(243, 235, 235, 0.582);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+}
+.table-content {
+    margin: 0 100px 50px 80px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    text-align: center;
+    min-width: 20px;
+}
+.table-content thead tr {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.table-content th,
+.table-content td {
+   padding: 12px 15px;
+   min-width: 20px;
+}
+.table-content td {
+    justify-content: left;
+}
+.table-content th {
+    text-align: center;
+}
+.table-content tbody tr td h5{
+    font-size: 15px;
+    text-align: center;
+}
+.table-content tbody tr:nth-of-type(even) {
+    background-color: rgb(80, 74, 74);
+}
+.footer{
+    text-align: center;
+}
+
+    
+

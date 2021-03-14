@@ -1,0 +1,196 @@
+@font-face {
+    font-family: Cinzel-reg;
+    src: url(../fonts/Cinzel-Regular.otf);
+}
+@font-face {
+    font-family: Cinzel-bold;
+    src: url(../fonts/Cinzel-Bold.otf);
+}
+body{
+    background-color: #333;
+    color: white;
+
+}
+.header {
+    padding: 50px 0 100px 0; 
+}
+.logo {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: -110px;
+    z-index: 100;
+    font-family: Cinzel-reg;
+}
+.nav {
+    text-align: right;
+    
+}
+.nav .button {
+    width: 150px;
+    font-weight: bolder;
+    background: rgba(243, 235, 235, 0.582);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+}
+.elementcontainer{
+    padding: 0px 100px;
+}
+figure img{
+    opacity: .7;
+    width: 208px;
+    height: 248px;
+
+}
+figure img:hover{
+    opacity: 1.0;
+}
+.pyro {
+	display: inline-block;
+ 	vertical-align: top;
+	margin: 50px 10px 10px 10px;
+	position: relative;
+	padding: 10px;
+    text-align: center;
+    background: rgba( 186, 96, 66, 0.20 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.pyro:hover {
+    background: rgba(186, 96, 66, 0.801);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+
+}
+.hydro {
+	display: inline-block;
+ 	vertical-align: top;
+	margin: 50px 10px 10px 10px;
+	position: relative;
+	padding: 10px;
+    text-align: center;
+    background: rgba( 58, 115, 186, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.hydro:hover {
+    background: rgba(58, 116, 186, 0.795);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.electro {
+	display: inline-block;
+ 	vertical-align: top;
+	margin: 50px 10px 10px 10px;
+	position: relative;
+	padding: 10px;
+    text-align: center;
+    background: rgba( 134, 82, 187, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.electro:hover {
+    background: rgba(134, 82, 187, 0.801);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+.cyro {
+	display: inline-block;
+ 	vertical-align: top;
+	margin: 50px 10px 10px 10px;
+	position: relative;
+	padding: 10px;
+    text-align: center;
+    background: rgba( 107, 202, 220, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.cyro:hover {
+    background: rgba( 107, 202, 220, 0.80 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+.anemo {
+	display: inline-block;
+ 	vertical-align: top;
+	margin: 50px 10px 10px 10px;
+	position: relative;
+	padding: 10px;
+    text-align: center;
+    background: rgba( 62, 157, 161, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.anemo:hover {
+    background: rgba( 62, 157, 161, 0.80 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+.geo {
+	display: inline-block;
+ 	vertical-align: top;
+	margin: 50px 10px 10px 10px;
+	position: relative;
+	padding: 10px;
+    text-align: center;
+    background: rgba( 187, 150, 70, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.geo:hover {
+    background: rgba( 187, 150, 70, 0.80 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    text-align: center;
+}
+
